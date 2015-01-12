@@ -1,0 +1,13 @@
+.message_box {
+    height: 30em;
+    overflow-y: scroll;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 4px 4px 0 0;
+    border-style: solid;
+    border-bottom: none;
+}
+
+#message_wrapper {
+    display: none;
+}
