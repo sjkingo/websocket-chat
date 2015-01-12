@@ -28,11 +28,11 @@ By default the server listens on `0.0.0.0:8080`. If this is not desired, edit `s
 
 ### To load the client:
 
-Fire up the built-in Python web server and load the client from there:
+1. Fire up the built-in Python web server and load the client from there:
 
-```
-$ cd html5client
-$ python3 -m http.server
-$ $BROWSER 'http://localhost:8000/'
-```
+   ```
+   $ cd html5client
+   $ python3 -m http.server
+   $ $BROWSER 'http://localhost:8000/'
+   ```
 
