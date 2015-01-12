@@ -1,3 +1,5 @@
+var server = 'ws://localhost:8080/';
+
 function zPad(n) {
     if (n < 10) return '0' + n;
     else return n;
@@ -14,7 +16,6 @@ function write_to_mbox(message) {
 }
 
 $(document).ready(function() {
-    var server = 'ws://pipit.sjkwi.com.au:8080/';
     $('#name').focus();
 
     $('#connect-form').submit(function() {
